@@ -1,9 +1,10 @@
 import './footer.style.css'
 
 export const Footer = () => { 
+    const currentYear = new Date().getFullYear(); 
     return (
         <footer>
-            <p>&copy; 2024 Score Board App</p>
+            <p>{currentYear} Score Board App</p>
         </footer>
     )
 }

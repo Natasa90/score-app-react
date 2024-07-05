@@ -1,9 +1,11 @@
 .teamImages{
     display: flex;
+    flex-flow: row wrap;
     align-items: center;
     justify-content: center;
     gap: 30px;
     padding-top: 30px;
+    
 }
 .teamImages p{
     font-size: 3rem;

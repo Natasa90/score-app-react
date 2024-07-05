@@ -1,17 +1,14 @@
 import './App.css'
-import { TeamImages } from './components/teams' 
-import { CounterLakers } from './components/counterLakers'
-import { CounterDenver } from './components/counterDenver'
+import { TeamImages } from './components/Teams' 
+import { Counter } from './components/Counter'
+import { Layout } from './components/Layout'
 
 export const App = () => {
   return (
-    <>
-    <TeamImages />
-    <div className="counters">
-      <CounterLakers />
-      <CounterDenver />
-    </div>
-    </>
+    <Layout>
+      <TeamImages />
+      <Counter />
+    </Layout>
   )
 }
 
